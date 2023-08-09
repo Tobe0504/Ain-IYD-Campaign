@@ -17,7 +17,14 @@ const LandingPageHeroSection = () => {
           young people in Nigeria.
         </p>
         <div className={classes.buttonContainer}>
-          <Button type="primary">Save The World</Button>
+          <Button
+            type="primary"
+            onClick={() => {
+              window.open("https://forms.gle/fu9SeyBEbMpfRWjeA");
+            }}
+          >
+            Save The World
+          </Button>
         </div>
       </div>
 

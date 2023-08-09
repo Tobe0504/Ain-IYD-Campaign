@@ -62,7 +62,14 @@ const LandingPageAinDetails = () => {
             className={classes.arrowPointer}
           />
           <div className={classes.buttonSection}>
-            <Button type="primary">Register Now</Button>
+            <Button
+              type="primary"
+              onClick={() => {
+                window.open("https://forms.gle/fu9SeyBEbMpfRWjeA");
+              }}
+            >
+              Register Now
+            </Button>
           </div>
         </div>
         <div>
@@ -289,7 +296,14 @@ const LandingPageAinDetails = () => {
             of it.
           </p>
           <div className={classes.buttonSection}>
-            <Button type="primary">Register Now</Button>
+            <Button
+              type="primary"
+              onClick={() => {
+                window.open("https://forms.gle/fu9SeyBEbMpfRWjeA");
+              }}
+            >
+              Register Now
+            </Button>
           </div>
         </div>
       </div>

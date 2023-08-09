@@ -40,7 +40,14 @@ const LandingPageGreenSkills = () => {
           Youth Day event for 2023.
         </p>
         <div className={classes.buttonSection}>
-          <Button type="primary">Register Now</Button>
+          <Button
+            type="primary"
+            onClick={() => {
+              window.open("https://forms.gle/fu9SeyBEbMpfRWjeA");
+            }}
+          >
+            Register Now
+          </Button>
         </div>
       </div>
     </div>

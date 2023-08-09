@@ -23,7 +23,14 @@ const Header = () => {
       <p>IYD 2023</p>
       <Link to="/">About AIESEC</Link>
       <div className={classes.buttonContainer}>
-        <Button type="primary">Register Now</Button>
+        <Button
+          type="primary"
+          onClick={() => {
+            window.open("https://forms.gle/fu9SeyBEbMpfRWjeA");
+          }}
+        >
+          Register Now
+        </Button>
       </div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +68,14 @@ const Header = () => {
           <p>IYD 2023</p>
           <Link to="/">About AIESEC</Link>
           <div className={classes.buttonContainerMobile}>
-            <Button type="primary">Register Now</Button>
+            <Button
+              type="primary"
+              onClick={() => {
+                window.open("https://forms.gle/fu9SeyBEbMpfRWjeA");
+              }}
+            >
+              Register Now
+            </Button>
           </div>
         </div>
       </div>
