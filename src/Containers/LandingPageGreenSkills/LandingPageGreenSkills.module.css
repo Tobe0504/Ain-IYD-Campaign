@@ -1,0 +1,169 @@
+.container {
+  display: flex;
+  align-items: stretch;
+  min-height: 90vh;
+  padding: 0;
+}
+
+.container > div {
+  flex-basis: 50%;
+}
+
+.textSection {
+  padding: 2rem 100px 2rem 0;
+}
+
+.textSection > h4 {
+  color: var(--iyd-black, #131112);
+  font-family: Lexend Deca;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -2.4px;
+}
+
+.textSection > p {
+  color: var(--iyd-black, #131112);
+  text-align: justify;
+  font-family: Lexend Deca;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px;
+  margin-top: 44px;
+}
+
+.buttonSection {
+  width: 367px;
+  margin-top: 44px;
+}
+
+.imageSection {
+  position: relative;
+}
+
+.imageSection > img:nth-child(1) {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.imageSection > img:nth-child(2) {
+  position: absolute;
+  top: 247px;
+  left: 195px;
+}
+
+.imageSection > img:nth-child(3) {
+  position: absolute;
+  top: 525px;
+  left: 215px;
+}
+
+.imageSection > img:nth-child(4) {
+  position: absolute;
+  left: 79px;
+  bottom: 79px;
+}
+
+.imageSection > img:nth-child(5) {
+  position: absolute;
+  right: 20px;
+  top: 0px;
+  bottom: 0;
+  margin: auto;
+}
+
+.imageSection > img:nth-child(6) {
+  position: absolute;
+  left: 20px;
+  top: 0px;
+  bottom: 0;
+  margin: auto;
+}
+
+.imageSectionMobile {
+  display: none;
+}
+
+.imageSectionMobile > img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .container {
+    flex-direction: column;
+    min-height: auto;
+    padding: 0 1rem;
+  }
+
+  .textSection {
+    padding: 2rem 0;
+  }
+
+  .imageSection {
+    display: none;
+  }
+
+  .imageSectionMobile {
+    display: block;
+  }
+
+  .textSection > h4 {
+    font-size: 28px;
+    letter-spacing: -1.4px;
+  }
+
+  .textSection > p {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 21.871px;
+    margin-top: 21px;
+  }
+
+  .buttonSection {
+    margin-top: 21px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    flex-direction: column;
+    min-height: auto;
+    padding: 0 1rem;
+  }
+
+  .textSection {
+    padding: 2rem 0;
+  }
+
+  .imageSection {
+    display: none;
+  }
+
+  .imageSectionMobile {
+    display: block;
+  }
+
+  .textSection > h4 {
+    font-size: 28px;
+    letter-spacing: -1.4px;
+  }
+
+  .textSection > p {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 21.871px;
+    margin-top: 21px;
+  }
+
+  .buttonSection {
+    margin-top: 21px;
+    width: 100%;
+  }
+}
