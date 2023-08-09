@@ -4,6 +4,8 @@
   gap: 66px;
   height: 10vh;
   padding: 0 100px;
+  background-color: #f3f3f6;
+  z-index: 3;
 }
 
 .container > p:nth-child(2) {
