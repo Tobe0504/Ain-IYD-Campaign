@@ -198,6 +198,7 @@
   .container > div > p {
     color: var(--iyd-black, #131112);
     text-align: justify;
+    line-height: 24px;
     width: 100%;
     font-size: 16px;
     letter-spacing: -0.8px;
