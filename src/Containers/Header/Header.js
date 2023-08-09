@@ -10,7 +10,7 @@ const Header = () => {
   const sideMenu = useRef();
 
   const openSideMenu = () => {
-    sideMenu.current.style.width = "50%";
+    sideMenu.current.style.width = "80%";
   };
 
   const closeSideMenu = () => {

@@ -1,5 +1,4 @@
 .container {
-  border: 2px solid red;
   display: flex;
   align-items: center;
   gap: 66px;
@@ -86,6 +85,29 @@
 }
 
 @media screen and (min-width: 767px) and (max-width: 1023px) {
+  .container {
+    padding: 0 1rem;
+  }
+
+  .container > img {
+    width: 153px;
+    height: 21.893px;
+    flex-shrink: 0;
+  }
+
+  .container > p:nth-child(2),
+  .container > a:nth-child(3),
+  .buttonContainer {
+    display: none;
+  }
+
+  .sidemenuOpener {
+    display: block;
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .container {
     padding: 0 1rem;
   }

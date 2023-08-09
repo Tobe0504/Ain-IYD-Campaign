@@ -1,3 +1,4 @@
+import Footer from "../../Containers/Footer/Footer";
 import Header from "../../Containers/Header/Header";
 import classes from "./Layout.module.css";
 
@@ -7,8 +8,10 @@ const Layout = ({ children }) => {
       <div className={classes.header}>
         <Header />
       </div>
-      <div>{children}</div>
-      <div className={classes.footer}></div>
+      <div className={classes.body}>{children}</div>
+      <div className={classes.footer}>
+        <Footer />
+      </div>
     </div>
   );
 };

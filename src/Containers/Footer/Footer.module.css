@@ -1,0 +1,112 @@
+.container {
+  border-top: 1px solid var(--iyd-black, #131112);
+  background: var(--iyd-white, #f3f4f7);
+}
+
+.footerUpper {
+  display: flex;
+  align-items: flex-start;
+  gap: 127px;
+  padding: 72px 100px;
+}
+
+.footerUpper > img {
+  margin-right: 70px;
+}
+
+.footerUpper > div:nth-child(3) {
+  width: 20%;
+}
+
+.footerUpper > div:nth-child(2) > p,
+.footerUpper > div:nth-child(3) > p:nth-child(1) {
+  color: var(--iyd-black, #131112);
+  font-family: Lexend Deca;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -1.4px;
+  margin-bottom: 10px;
+}
+
+.footerUpper > div:nth-child(2) > div {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.footerLower {
+  background: var(--iyd-black, #131112);
+  padding: 25px 0px;
+  color: var(--iyd-white, #f3f4f7);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+}
+
+.footerUpper > div:nth-child(3) > p:nth-child(2) {
+  font-family: Lexend Deca;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.8px;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .footerUpper {
+    gap: 57px;
+    padding: 40px 1rem;
+    flex-direction: column;
+  }
+
+  .footerUpper > div:nth-child(3) {
+    width: 80%;
+  }
+
+  .footerUpper > div:nth-child(2) > p,
+  .footerUpper > div:nth-child(3) > p:nth-child(1) {
+    font-size: 20px;
+    letter-spacing: -1px;
+  }
+
+  .footerUpper > div:nth-child(3) > p:nth-child(2) {
+    font-family: Lexend Deca;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.8px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footerUpper {
+    gap: 57px;
+    padding: 40px 1rem;
+    flex-direction: column;
+  }
+
+  .footerUpper > div:nth-child(3) {
+    width: 80%;
+  }
+
+  .footerUpper > div:nth-child(2) > p,
+  .footerUpper > div:nth-child(3) > p:nth-child(1) {
+    font-size: 20px;
+    letter-spacing: -1px;
+  }
+
+  .footerUpper > div:nth-child(3) > p:nth-child(2) {
+    font-family: Lexend Deca;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.8px;
+  }
+}
