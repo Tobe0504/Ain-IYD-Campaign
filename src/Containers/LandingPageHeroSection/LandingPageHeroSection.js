@@ -29,6 +29,7 @@ const LandingPageHeroSection = () => {
       </div>
 
       <img src={landingPageHeroSectionImage} alt="Save the world" />
+
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="657"

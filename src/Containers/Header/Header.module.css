@@ -67,7 +67,7 @@
 }
 
 .sideMenuInner > p,
-.sideMenuInner > a {
+.sideMenuInner > p {
   color: var(--iyd-white, #f3f4f7);
   font-family: Lexend Deca;
   font-size: 20px;
@@ -100,7 +100,7 @@
   }
 
   .container > p:nth-child(2),
-  .container > a:nth-child(3),
+  .container > p:nth-child(3),
   .buttonContainer {
     display: none;
   }

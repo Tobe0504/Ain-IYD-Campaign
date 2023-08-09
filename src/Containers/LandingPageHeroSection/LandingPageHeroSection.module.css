@@ -17,7 +17,7 @@
 .container > div > h1 {
   color: var(--iyd-black, #131112);
   font-family: Lexend Deca;
-  font-size: 155px;
+  font-size: 125px;
   font-style: normal;
   font-weight: 500;
   line-height: 120px; /* 68.571% */
@@ -29,7 +29,7 @@
 .container > div > h1 > span:nth-child(1) {
   color: var(--iyd-black, #131112);
   font-family: Lexend Deca;
-  font-size: 105px;
+  font-size: 85px;
   font-style: normal;
   font-weight: 300;
   line-height: 120px;
@@ -40,7 +40,7 @@
 .container > div > h1 > span:nth-child(2) {
   color: var(--primary-green, #00af54);
   font-family: Lexend Deca;
-  font-size: 105px;
+  font-size: 85px;
   font-style: normal;
   font-weight: 500;
   line-height: 120px;
@@ -52,11 +52,11 @@
   color: var(--iyd-black, #131112);
   text-align: justify;
   font-family: Lexend Deca;
-  font-size: 28px;
+  font-size: 22px;
   font-style: normal;
   font-weight: 400;
-  line-height: 44px;
-  width: 50%;
+  line-height: 33px;
+  width: 40%;
   margin-top: 70px;
 }
 
@@ -67,12 +67,12 @@
 
 .container > img {
   position: absolute;
-  right: -0px;
+  right: 0px;
   top: 0;
   bottom: 0;
   margin: auto;
   width: 774.517px;
-  height: 581.951px;
+  height: 531.951px;
   z-index: 0;
 }
 
@@ -198,7 +198,6 @@
   .container > div > p {
     color: var(--iyd-black, #131112);
     text-align: justify;
-    line-height: 24px;
     width: 100%;
     font-size: 16px;
     letter-spacing: -0.8px;
