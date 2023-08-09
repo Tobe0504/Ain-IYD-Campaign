@@ -1,0 +1,183 @@
+.container {
+  padding: 2rem 100px;
+}
+
+.iydDetails {
+  display: flex;
+  align-items: center;
+  gap: 81px;
+  margin: 4rem 0;
+}
+
+.iydDetails > div {
+  flex-basis: 50%;
+  height: 100%;
+  position: relative;
+}
+
+.iydDetails > div:nth-child(2) > img:nth-child(1) {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.iydDetails > div > h4 {
+  color: var(--iyd-black, #131112);
+  font-family: Lexend Deca;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 44px;
+}
+
+.iydDetails > div > h4 > span {
+  color: var(--primary-green, #00af54);
+  font-family: Covered By Your Grace;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.iydDetails > div > P {
+  color: var(--iyd-black, #131112);
+  text-align: justify;
+  font-family: Lexend Deca;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px; /* 157.143% */
+  margin-bottom: 44px;
+}
+
+.iydDetails > div > iframe {
+  border-radius: 0 0 0 10px;
+  margin-bottom: 4rem;
+}
+
+.iydDetails > div > .buttonSection {
+  width: 367px;
+}
+
+.arrowPointer {
+  position: absolute;
+  bottom: -90px;
+  right: 100px;
+  width: 146.692px;
+  height: 342.738px;
+  object-fit: contain;
+  transform: rotate(-45deg);
+}
+
+.greentech {
+  position: absolute;
+  width: 310.081px;
+  height: 113.003px;
+  left: 0;
+  bottom: -150px;
+}
+
+.environCare {
+  width: 410.081px;
+  height: 213.003px;
+  position: absolute;
+  right: 0px;
+  bottom: -20%;
+}
+
+.whatIsAIESEC {
+  margin-top: 9rem;
+}
+
+.crown {
+  position: relative;
+  left: -50px;
+  margin-bottom: 3rem;
+}
+
+.scribble {
+  position: absolute;
+  right: 40px;
+  top: 128px;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .container {
+    padding: 0 1rem;
+  }
+
+  .iydDetails {
+    flex-direction: column;
+    gap: 81px;
+    margin: 4rem 0;
+  }
+
+  .iydDetails > div > h4 {
+    font-size: 28px;
+    letter-spacing: -1.4px;
+  }
+
+  .iydDetails > div > h4 > span {
+    font-size: 40px;
+  }
+
+  .iydDetails > div > P {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 21.871px;
+  }
+
+  .iydDetails > div > .buttonSection {
+    width: 100%;
+  }
+
+  .environCare,
+  .whatIsAIESEC,
+  .crown,
+  .scribble,
+  .arrowPointer,
+  .greentech {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    padding: 0 1rem;
+  }
+
+  .iydDetails {
+    flex-direction: column;
+    gap: 81px;
+    margin: 4rem 0;
+  }
+
+  .iydDetails > div > h4 {
+    font-size: 28px;
+    letter-spacing: -1.4px;
+  }
+
+  .iydDetails > div > h4 > span {
+    font-size: 40px;
+  }
+
+  .iydDetails > div > P {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 21.871px;
+  }
+
+  .iydDetails > div > .buttonSection {
+    width: 100%;
+  }
+
+  .environCare,
+  .whatIsAIESEC,
+  .crown,
+  .scribble,
+  .arrowPointer,
+  .greentech {
+    display: none;
+  }
+}
