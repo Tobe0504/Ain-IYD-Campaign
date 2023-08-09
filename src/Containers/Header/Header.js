@@ -3,7 +3,8 @@ import AiNLogo from "../../Assets/Images/AiNLogo.svg";
 import AiNLogoWhite from "../../Assets/Images/AiNLogoWhite.svg";
 import { Link } from "react-router-dom";
 import Button from "../../Components/Button/Button";
-import { useRef } from "react";
+import { useContext, useRef } from "react";
+import { AppContext } from "../../Context/AppContext";
 
 const Header = () => {
   // Refs
@@ -17,11 +18,26 @@ const Header = () => {
     sideMenu.current.style.width = "0%";
   };
 
+  // context
+  const { iydContainerRef, aboutAIESECRef } = useContext(AppContext);
+
   return (
     <div className={classes.container}>
       <img src={AiNLogo} alt="AIESEC In Nigeria Logo" />
-      <p>IYD 2023</p>
-      <Link to="/">About AIESEC</Link>
+      <p
+        onClick={() => {
+          iydContainerRef.current.scrollIntoView();
+        }}
+      >
+        IYD 2023
+      </p>
+      <p
+        onClick={() => {
+          aboutAIESECRef.current.scrollIntoView();
+        }}
+      >
+        About AIESEC
+      </p>
       <div className={classes.buttonContainer}>
         <Button
           type="primary"

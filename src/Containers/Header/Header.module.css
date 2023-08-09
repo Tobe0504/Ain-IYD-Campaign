@@ -3,7 +3,7 @@
   align-items: center;
   gap: 66px;
   height: 10vh;
-  padding: 0 100px;
+  padding: 0 50px;
   background-color: #f3f3f6;
   z-index: 3;
 }
@@ -16,9 +16,10 @@
   font-style: normal;
   font-weight: 500;
   line-height: 44px;
+  cursor: pointer;
 }
 
-.container > a:nth-child(3) {
+.container > p:nth-child(3) {
   color: var(--iyd-black, #131112);
   font-family: Lexend Deca;
   font-size: 28px;
@@ -26,6 +27,7 @@
   font-weight: 500;
   line-height: 44px;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .sidemenuOpener {

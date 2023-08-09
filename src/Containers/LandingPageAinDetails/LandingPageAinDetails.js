@@ -5,8 +5,12 @@ import arrowPointer from "../../Assets/Images/arrowPointer.svg";
 import greenTech from "../../Assets/Images/greenTechnology.svg";
 import environmentalcare from "../../Assets/Images/environmentalCare.svg";
 import walkingMan from "../../Assets/Images/walkingMan.svg";
+import { useContext } from "react";
+import { AppContext } from "../../Context/AppContext";
 
 const LandingPageAinDetails = () => {
+  // context
+  const { iydContainerRef, aboutAIESECRef } = useContext(AppContext);
   return (
     <div className={classes.container}>
       <div className={classes.iydDetails}>
@@ -39,7 +43,7 @@ const LandingPageAinDetails = () => {
         </div>
       </div>
 
-      <div className={classes.iydDetails}>
+      <div className={classes.iydDetails} ref={iydContainerRef}>
         <div>
           <iframe
             width="100%"
@@ -99,7 +103,10 @@ const LandingPageAinDetails = () => {
           />
         </div>
       </div>
-      <div className={`${classes.iydDetails} ${classes.whatIsAIESEC}`}>
+      <div
+        className={`${classes.iydDetails} ${classes.whatIsAIESEC}`}
+        ref={aboutAIESECRef}
+      >
         <div>
           <img src={walkingMan} alt="Walking man" />
         </div>
