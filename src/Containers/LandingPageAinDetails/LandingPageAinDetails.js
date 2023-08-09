@@ -45,12 +45,21 @@ const LandingPageAinDetails = () => {
 
       <div className={classes.iydDetails}>
         <div>
-          <iframe
+          {/* <iframe
             src="https://drive.google.com/file/d/1nbCftMUCYwRU3BRL7Yx2ZC7FjTQ9sMLh/preview"
             width="100%"
             height="515"
             allow="autoplay"
             title="AIESEC In Nigeria International Youth Day 2023"
+          ></iframe> */}
+          <iframe
+            width="100%"
+            height="515"
+            src="https://www.youtube.com/embed/_29F3ZGZkc4"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
           ></iframe>
           <p>
             We have curated an event specially designed for young people to
