@@ -66,7 +66,6 @@
   height: 40px;
 }
 
-.sideMenuInner > p,
 .sideMenuInner > p {
   color: var(--iyd-white, #f3f4f7);
   font-family: Lexend Deca;
@@ -79,8 +78,12 @@
   text-decoration: none;
 }
 
-.sideMenuInner > p {
+.sideMenuInner > p:nth-child(2) {
   margin-top: 80px;
+}
+
+.sideMenuInner > p {
+  margin-top: 44px;
 }
 
 .sideMenuInner > .buttonContainerMobile {

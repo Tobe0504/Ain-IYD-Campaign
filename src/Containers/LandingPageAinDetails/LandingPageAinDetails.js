@@ -13,7 +13,7 @@ const LandingPageAinDetails = () => {
   const { iydContainerRef, aboutAIESECRef } = useContext(AppContext);
   return (
     <div className={classes.container}>
-      <div className={classes.iydDetails}>
+      <div className={classes.iydDetails} ref={iydContainerRef}>
         <div>
           <h4>
             <span>IYD 2023:</span> "Green Skills For Youth: Towards A
@@ -43,7 +43,7 @@ const LandingPageAinDetails = () => {
         </div>
       </div>
 
-      <div className={classes.iydDetails} ref={iydContainerRef}>
+      <div className={classes.iydDetails}>
         <div>
           <iframe
             src="https://drive.google.com/file/d/1nbCftMUCYwRU3BRL7Yx2ZC7FjTQ9sMLh/preview"
