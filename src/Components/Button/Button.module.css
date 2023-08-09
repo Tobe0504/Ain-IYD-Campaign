@@ -1,0 +1,31 @@
+.primary {
+  padding: 1rem 3rem;
+  border-radius: 40px;
+  background: var(--primary-green, #00af54);
+  min-width: 100%;
+  color: var(--iyd-white, #f3f4f7);
+  font-family: Lexend Deca;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .primary {
+    padding: 12px 1rem;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.871px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .primary {
+    padding: 12px 1rem;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.871px;
+  }
+}
