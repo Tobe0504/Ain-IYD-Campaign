@@ -94,8 +94,8 @@ const Footer = () => {
         <div>
           <p>Our Address</p>
           <p>
-            Co-Creation Hub (CCHUb) 294, Herbert Macaulay Way, Yaba, Lagos,
-            Nigeria.
+            6th floor Co-Creation Hub (CCHUb) 294, Herbert Macaulay Way, Yaba,
+            Lagos, Nigeria.
           </p>
         </div>
       </div>
